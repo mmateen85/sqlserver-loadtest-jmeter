@@ -1,6 +1,6 @@
-DECLARE @counter INT = 1;
+DECLARE @counter INT = 0;
  
-WHILE @counter < 100000
+WHILE @counter < 100000 
 BEGIN
     PRINT @counter;
     SET @counter = @counter + 1;
